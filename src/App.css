@@ -1,0 +1,18 @@
+/* Default background for small screens */
+.bg-custom {
+  background-image: url("./assets/Hero/bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full height */
+
+}
+
+
+/* Change background for medium and larger screens */
+@media (min-width: 768px) {
+  .bg-custom {
+      background-image: url("https://images.pexels.com/photos/247600/pexels-photo-247600.jpeg");
+  }
+
+}
+

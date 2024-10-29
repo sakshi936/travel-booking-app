@@ -1,0 +1,115 @@
+.bg-teal {
+	background-color: #115e59;
+	color: white;
+}
+.teal-border {
+	border-color: #115e59;
+	color: #115e59;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.text-sm {
+	font-size: 10px;
+}
+
+.dropdown-width {
+	width: 200px;
+}
+
+.drop-cal-width {
+	width: 220px;
+	height: 220px;
+}
+
+/* Hero section */
+.discount-img {
+	width: 300px;
+}
+
+.bg-img {
+	background-color: #115e59;
+	height: 100vh;
+
+}
+
+
+.text-xl{
+   font-size: 2rem;
+}
+
+/* calender */
+
+.calendar-container {
+	display: inline-block;
+	margin: 0;
+}
+
+.calendar-header {
+	text-align: center;
+	color: #4b5563;
+	font-size: 1rem;
+	/* font-weight: 600; */
+	/* margin-bottom: 1rem; */
+}
+
+.calendar-grid {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	gap: 4px;
+	/* padding: 0 16px; */
+}
+
+.calendar-day-header {
+	text-align: center;
+	font-weight: 500;
+	font-size: 0.875rem;
+	color: #9ca3af;
+}
+
+.calendar-day {
+	padding: 5px;
+	text-align: center;
+	font-size: 0.85rem;
+	font-weight: 700;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: background-color 0.2s;
+}
+
+.calendar-day:hover {
+	background-color: #1f817b;
+	color: white;
+}
+
+.highlighted-day {
+	background-color: #05847b;
+	color: white;
+}
+
+/* Reset size for medium and larger screens */
+@media (min-width: 768px) {
+	.dropdown-width {
+		width: 300px;
+	}
+
+	/* calender */
+	.drop-cal-width {
+		width: 450px;
+		height: 230px;
+	}
+
+	/* hero background-image */
+	.bg-img {
+		background-image: url("./assets/Hero/bg.jpeg");
+		background-size: cover;
+		background-position: center;
+		height: 100vh;
+	}
+
+  .text-xl{
+    font-size: 3rem;
+ }
+}
