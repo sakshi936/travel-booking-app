@@ -24,6 +24,12 @@
 	height: 220px;
 }
 
+
+/* fligth search card */
+.card-w{
+	width: 330px;
+}
+
 /* Hero section */
 .discount-img {
 	width: 300px;
@@ -101,4 +107,10 @@
 	.text-xl {
 		font-size: 3rem;
 	}
+
+	.card-w{
+		width: 500px;
+	}
 }
+
+

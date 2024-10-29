@@ -4,7 +4,7 @@ import "./Custom.css";
 
 function Hero() {
   return (
-    <div className=" d-flex flex-column flex-md-row gap-4 justify-content-center align-items-center  py-5 px-3 h-auto bg-img" 
+    <div className=" d-flex flex-column flex-md-row gap-4 justify-content-center align-items-center  py-5 px-2 h-auto bg-img" 
     >
   
     {/* Discount image */}

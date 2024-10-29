@@ -16,7 +16,7 @@ const FlightSearchCard = () => {
 		{ name: "Pardubice", country: "Czech Republic", code: "PED" },
 	];
 	return (
-		<div className="bg-white p-4 rounded-4  shadow-lg w-auto">
+		<div className="bg-white p-4 rounded-4  shadow-lg card-w">
 			{/* Trip Type Buttons */}
 			<div className="d-flex  gap-2 mb-3 justify-content-start">
 				<button className="btn btn-sm teal-border ">ONE WAY</button>
