@@ -30,14 +30,14 @@
 }
 
 .bg-img {
-	background-color: #115e59;
+	background-image: url("./assets/Hero/bg.jpeg");
+	background-size: cover;
+	background-position: center;
 	height: 100vh;
-
 }
 
-
-.text-xl{
-   font-size: 2rem;
+.text-xl {
+	font-size: 2rem;
 }
 
 /* calender */
@@ -51,15 +51,12 @@
 	text-align: center;
 	color: #4b5563;
 	font-size: 1rem;
-	/* font-weight: 600; */
-	/* margin-bottom: 1rem; */
 }
 
 .calendar-grid {
 	display: grid;
 	grid-template-columns: repeat(7, 1fr);
 	gap: 4px;
-	/* padding: 0 16px; */
 }
 
 .calendar-day-header {
@@ -101,15 +98,7 @@
 		height: 230px;
 	}
 
-	/* hero background-image */
-	.bg-img {
-		background-image: url("./assets/Hero/bg.jpeg");
-		background-size: cover;
-		background-position: center;
-		height: 100vh;
+	.text-xl {
+		font-size: 3rem;
 	}
-
-  .text-xl{
-    font-size: 3rem;
- }
 }
